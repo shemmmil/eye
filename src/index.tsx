@@ -9,4 +9,4 @@ const Button = styled.button`
   font-size: 18px;
 `;
 
-ReactDOM.render(<Button>Hello World</Button>, document.getElementById("root"));
+ReactDOM.render(<Button>Hellos World</Button>, document.getElementById("root"));
