@@ -4,12 +4,15 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
   mode: "development",
+
   entry: "./src/index.tsx",
 
   output: {
     filename: "app.js",
     path: path.resolve(__dirname, "dist")
   },
+
+  devtool: "inline-source-map",
 
   resolve: {
     extensions: [".tsx", ".ts", ".js"]
