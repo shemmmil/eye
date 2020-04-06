@@ -1,43 +1,44 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+/* eslint-disable @typescript-eslint/no-var-requires */
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
 
-  entry: "./src/index.tsx",
+  entry: './src/index.tsx',
 
   output: {
-    filename: "app.js",
-    path: path.resolve(__dirname, "dist")
+    filename: 'app.js',
+    path: path.resolve(__dirname, 'dist'),
   },
 
-  devtool: "inline-source-map",
+  devtool: 'inline-source-map',
 
   devServer: {
-    contentBase: "./dist",
-    hot: true
+    contentBase: './dist',
+    hot: true,
   },
 
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: ['.tsx', '.ts', '.js'],
   },
 
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: "ts-loader",
-        exclude: /node_modules/
-      }
-    ]
+        use: 'ts-loader',
+        exclude: /node_modules/,
+      },
+    ],
   },
 
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "Super App",
-      template: "./src/index.html"
-    })
-  ]
+      title: 'Super App',
+      template: './src/index.html',
+    }),
+  ],
 };
