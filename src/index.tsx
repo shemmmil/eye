@@ -1,6 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import styled from "styled-components";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 
 const Button = styled.button`
   width: 100px;
@@ -9,4 +9,4 @@ const Button = styled.button`
   font-size: 18px;
 `;
 
-ReactDOM.render(<Button>Hellos World</Button>, document.getElementById("root"));
+ReactDOM.render(<Button>Hellos World</Button>, document.getElementById('root'));
