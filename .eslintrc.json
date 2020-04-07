@@ -18,14 +18,9 @@
     "project": "tsconfig.json",
     "tsconfigRootDir": "."
   },
-  "plugins": [
-    "@typescript-eslint",
-    "sonarjs",
-    "promise",
-    "react-hooks",
-    "optimize-regex"
-  ],
+  "plugins": ["@typescript-eslint", "sonarjs", "promise", "react-hooks", "optimize-regex"],
   "rules": {
-    "optimize-regex/optimize-regex": "warn"
+    "optimize-regex/optimize-regex": "warn",
+    "import/prefer-default-export": "off"
   }
 }
