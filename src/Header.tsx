@@ -75,7 +75,7 @@ const UserName = styled.span`
   }
 `;
 
-export const Header = (): JSX.Element => {
+export const Header = () => {
   return (
     <Container>
       <Content>
