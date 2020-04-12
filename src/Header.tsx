@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from 'antd';
-import { PlusOutlined, UserOutlined } from '@ant-design/icons';
+import { UserOutlined } from '@ant-design/icons';
 import { Money } from './Money';
 
 const Container = styled.div`
@@ -71,7 +71,7 @@ const UserName = styled.span`
   }
 `;
 
-export const Header = () => {
+export const Header: React.FC = () => {
   return (
     <Container>
       <Content>

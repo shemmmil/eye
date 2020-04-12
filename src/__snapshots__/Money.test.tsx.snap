@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Money Render Money render correctly 1`] = `
+.c0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 6px;
+  margin-right: 32px;
+}
+
+<Component>
+  <Button
+    block={false}
+    ghost={false}
+    htmlType="button"
+    icon={<ForwardRef(PlusOutlined) />}
+    loading={false}
+    onClick={[Function]}
+    shape="circle"
+  >
+    <Wave>
+      <button
+        className="ant-btn ant-btn-circle ant-btn-icon-only"
+        onClick={[Function]}
+        type="button"
+      >
+        <ForwardRef(PlusOutlined)>
+          <AntdIcon
+            icon={
+              Object {
+                "icon": Object {
+                  "attrs": Object {
+                    "focusable": "false",
+                    "viewBox": "64 64 896 896",
+                  },
+                  "children": Array [
+                    Object {
+                      "attrs": Object {},
+                      "children": Array [
+                        Object {
+                          "attrs": Object {},
+                          "tag": "style",
+                        },
+                      ],
+                      "tag": "defs",
+                    },
+                    Object {
+                      "attrs": Object {
+                        "d": "M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z",
+                      },
+                      "tag": "path",
+                    },
+                    Object {
+                      "attrs": Object {
+                        "d": "M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z",
+                      },
+                      "tag": "path",
+                    },
+                  ],
+                  "tag": "svg",
+                },
+                "name": "plus",
+                "theme": "outlined",
+              }
+            }
+          >
+            <span
+              aria-label="plus"
+              className="anticon anticon-plus"
+              role="img"
+            >
+              <IconReact
+                className=""
+                icon={
+                  Object {
+                    "icon": Object {
+                      "attrs": Object {
+                        "focusable": "false",
+                        "viewBox": "64 64 896 896",
+                      },
+                      "children": Array [
+                        Object {
+                          "attrs": Object {},
+                          "children": Array [
+                            Object {
+                              "attrs": Object {},
+                              "tag": "style",
+                            },
+                          ],
+                          "tag": "defs",
+                        },
+                        Object {
+                          "attrs": Object {
+                            "d": "M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z",
+                          },
+                          "tag": "path",
+                        },
+                        Object {
+                          "attrs": Object {
+                            "d": "M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z",
+                          },
+                          "tag": "path",
+                        },
+                      ],
+                      "tag": "svg",
+                    },
+                    "name": "plus",
+                    "theme": "outlined",
+                  }
+                }
+              >
+                <svg
+                  aria-hidden="true"
+                  className=""
+                  data-icon="plus"
+                  fill="currentColor"
+                  focusable="false"
+                  height="1em"
+                  key="svg-plus"
+                  viewBox="64 64 896 896"
+                  width="1em"
+                >
+                  <defs
+                    key="svg-plus-svg-0"
+                  >
+                    <style
+                      key="svg-plus-svg-0-defs-0"
+                    />
+                  </defs>
+                  <path
+                    d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+                    key="svg-plus-svg-1"
+                  />
+                  <path
+                    d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"
+                    key="svg-plus-svg-2"
+                  />
+                </svg>
+              </IconReact>
+            </span>
+          </AntdIcon>
+        </ForwardRef(PlusOutlined)>
+      </button>
+    </Wave>
+  </Button>
+  <styled.span>
+    <span
+      className="c0"
+    >
+      0 ₽
+    </span>
+  </styled.span>
+  <Modal
+    confirmLoading={false}
+    maskTransitionName="fade"
+    okType="primary"
+    onCancel={[Function]}
+    title="Остаток на счете: 0 ₽"
+    transitionName="zoom"
+    visible={false}
+    width={520}
+  >
+    <Component
+      closeIcon={
+        <span
+          className="ant-modal-close-x"
+        >
+          <ForwardRef(CloseOutlined)
+            className="ant-modal-close-icon"
+          />
+        </span>
+      }
+      confirmLoading={false}
+      footer={
+        <LocaleReceiver
+          componentName="Modal"
+          defaultLocale={
+            Object {
+              "cancelText": "Cancel",
+              "justOkText": "OK",
+              "okText": "OK",
+            }
+          }
+        >
+          [Function]
+        </LocaleReceiver>
+      }
+      maskTransitionName="fade"
+      okType="primary"
+      onCancel={[Function]}
+      onClose={[Function]}
+      prefixCls="ant-modal"
+      title="Остаток на счете: 0 ₽"
+      transitionName="zoom"
+      visible={false}
+      width={520}
+      wrapClassName=""
+    >
+      <PortalWrapper
+        visible={false}
+      />
+    </Component>
+  </Modal>
+</Component>
+`;

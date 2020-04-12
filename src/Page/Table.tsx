@@ -33,7 +33,7 @@ const columns = [
     key: 'created',
   },
 ];
-const EmptyText = () => <div>У вас нет таких опросов</div>;
+const EmptyText = (): JSX.Element => <div>У вас нет таких опросов</div>;
 const obj = {
   emptyText: EmptyText,
 };
