@@ -1,59 +1,168 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header Render Middle navigation list items correctly renders 1`] = `
+.c0 {
+  width: 100%;
+  color: #000;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.c1 {
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-right: 25px;
+}
+
+.c2 {
+  width: 100px;
+  height: 70px;
+  background-color: pink;
+}
+
+.c3 {
+  width: 100%;
+}
+
+.c4 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c5 {
+  display: inline-block;
+}
+
+.c5 + li {
+  margin-left: 32px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  margin-right: 32px;
+}
+
+.c8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 6px;
+  margin-right: 32px;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c10 {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.c11 {
+  margin-left: 10px;
+}
+
+.c11:hover {
+  cursor: pointer;
+}
+
 <Component>
   <styled.div>
     <div
-      className="sc-AxjAm fMa-dkf"
+      className="c0"
     >
       <styled.div>
         <div
-          className="sc-AxirZ iSNSQJ"
+          className="c1"
         >
           <styled.div>
             <div
-              className="sc-AxiKw eoWJIW"
+              className="c2"
             />
           </styled.div>
           <styled.div>
             <div
-              className="sc-AxhCb cAHyVF"
+              className="c3"
             >
               <styled.ul>
                 <ul
-                  className="sc-AxhUy iYGQHv"
+                  className="c4"
                 >
                   <styled.li>
                     <li
-                      className="sc-AxgMl dsGLXR"
+                      className="c5"
                     >
                       Мои опросы
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-AxgMl dsGLXR"
+                      className="c5"
                     >
                       Помощь
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-AxgMl dsGLXR"
+                      className="c5"
                     >
                       Оставить отзыв
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-AxgMl dsGLXR"
+                      className="c5"
                     >
                       Блог
                     </li>
                   </styled.li>
                   <styled.li>
                     <li
-                      className="sc-AxgMl dsGLXR"
+                      className="c5"
                     >
                       Мой профиль
                     </li>
@@ -64,14 +173,16 @@ exports[`Header Render Middle navigation list items correctly renders 1`] = `
           </styled.div>
           <styled.div>
             <div
-              className="sc-AxheI dMmxDl"
+              className="c6"
             >
               <Styled(Button)
+                data-button="create-a-survey"
                 type="primary"
               >
                 <Button
                   block={false}
-                  className="sc-Axmtr bsdBbD"
+                  className="c7"
+                  data-button="create-a-survey"
                   ghost={false}
                   htmlType="button"
                   loading={false}
@@ -79,7 +190,8 @@ exports[`Header Render Middle navigation list items correctly renders 1`] = `
                 >
                   <Wave>
                     <button
-                      className="ant-btn sc-Axmtr bsdBbD ant-btn-primary"
+                      className="ant-btn c7 ant-btn-primary"
+                      data-button="create-a-survey"
                       onClick={[Function]}
                       type="button"
                     >
@@ -227,18 +339,18 @@ exports[`Header Render Middle navigation list items correctly renders 1`] = `
               </Button>
               <styled.span>
                 <span
-                  className="sc-AxmLO fcWgEJ"
+                  className="c8"
                 >
                   0 ₽
                 </span>
               </styled.span>
               <styled.div>
                 <div
-                  className="sc-fzozJi wjHre"
+                  className="c9"
                 >
                   <styled.div>
                     <div
-                      className="sc-fzoLsD hkbdlM"
+                      className="c10"
                     >
                       <ForwardRef(UserOutlined)>
                         <AntdIcon
@@ -317,7 +429,7 @@ exports[`Header Render Middle navigation list items correctly renders 1`] = `
                   </styled.div>
                   <styled.span>
                     <span
-                      className="sc-fzpans cBtdIg"
+                      className="c11"
                     >
                       beta.user
                     </span>

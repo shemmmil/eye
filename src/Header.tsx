@@ -2,11 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import { Button } from 'antd';
 import { PlusOutlined, UserOutlined } from '@ant-design/icons';
+import { Money } from './Money';
 
 const Container = styled.div`
   width: 100%;
   color: #000;
   font-size: 15px;
+  background-color: #fff;
 `;
 const Content = styled.div`
   height: 70px;
@@ -42,12 +44,6 @@ const Navigation = styled.div`
 `;
 
 const CreateButton = styled(Button)`
-  margin-right: 32px;
-`;
-
-const Money = styled.span`
-  display: inline-flex;
-  margin-left: 6px;
   margin-right: 32px;
 `;
 
@@ -90,9 +86,10 @@ export const Header = () => {
           </List>
         </Middle>
         <Navigation>
-          <CreateButton type="primary">Создать опрос</CreateButton>
-          <Button shape="circle" icon={<PlusOutlined />} />
-          <Money>0&nbsp;₽</Money>
+          <CreateButton type="primary" data-button="create-a-survey">
+            Создать опрос
+          </CreateButton>
+          <Money />
           <User>
             <Avatar>
               <UserOutlined />

@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
+import 'jest-styled-components';
 import { Header } from './Header';
 
 describe('Header Render', () => {

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search render Search work 1`] = `
+<Search
+  allowClear={true}
+  enterButton={true}
+/>
+`;
